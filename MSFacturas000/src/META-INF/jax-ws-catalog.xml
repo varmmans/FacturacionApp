@@ -1,0 +1,6 @@
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <system systemId="https://celcer.sri.gob.ec/comprobantes-electronicos-ws/RecepcionComprobantesOffline?wsdl#%7Bhttp%3A%2F%2Fec.gob.sri.ws.recepcion%7DRecepcionComprobantesOfflineService"
+            uri="../ec/gob/sri/ws/recepcion/RecepcionComprobantesOfflineService.wsdl"/>
+    <system systemId="https://celcer.sri.gob.ec/comprobantes-electronicos-ws/AutorizacionComprobantesOffline?wsdl#%7Bhttp%3A%2F%2Fec.gob.sri.ws.autorizacion%7DAutorizacionComprobantesOfflineService"
+            uri="../ec/gob/sri/ws/autorizacion/AutorizacionComprobantesOfflineService.wsdl"/>
+</catalog>

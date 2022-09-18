@@ -1,0 +1,16 @@
+com\hanseg\facturacion\msfacturas002\exception\JAXBUtilException.class
+com\hanseg\facturacion\msfacturas002\signature\GenericXMLSignature.class
+com\hanseg\facturacion\msfacturas002\enumeration\EstadoComprobante.class
+com\hanseg\facturacion\msfacturas002\util\HansegUtil.class
+com\hanseg\facturacion\msfacturas002\ejb\FacturaEJBBean.class
+com\hanseg\facturacion\msfacturas002\util\JAXBUtil.class
+com\hanseg\facturacion\msfacturas002\exception\GenericXMLSignatureException.class
+com\hanseg\facturacion\msfacturas002\exception\XAdESBESSignatureException.class
+com\hanseg\facturacion\msfacturas002\signature\XAdESBESSignature.class
+com\hanseg\facturacion\msfacturas002\enumeration\EstadoRecepcion.class
+com\hanseg\facturacion\msfacturas002\util\ResourceUtil.class
+com\hanseg\facturacion\msfacturas002\entity\DocumentoPK.class
+com\hanseg\facturacion\msfacturas002\entity\Documento.class
+com\hanseg\facturacion\msfacturas002\util\UTF8Control.class
+com\hanseg\facturacion\msfacturas002\exception\FacturacionElectronicaEJBBeanException.class
+com\hanseg\facturacion\msfacturas002\exception\FacturaEJBBeanException.class

@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdevws:WebServiceProxy xmlns:jdevws="http://xmlns.oracle.com/jdeveloper/10130/webserviceproxy">
+   <list n="CHILD_NODES">
+      <url path="AutorizacionComprobantesOfflineService.xml"/>
+      <url path="AutorizacionComprobantesOfflineService.wsdl"/>
+      <url path="AutorizacionComprobantesOfflinePortClient.java"/>
+      <url path="../../../../../autorizacion/ws/sri/gob/ec/AutorizacionComprobante.java"/>
+      <url path="../../../../../autorizacion/ws/sri/gob/ec/Mensaje.java"/>
+      <url path="../../../../../autorizacion/ws/sri/gob/ec/package-info.java"/>
+      <url path="../../../../../autorizacion/ws/sri/gob/ec/AutorizacionComprobanteLoteResponse.java"/>
+      <url path="../../../../../autorizacion/ws/sri/gob/ec/AutorizacionComprobanteResponse.java"/>
+      <url path="../../../../../autorizacion/ws/sri/gob/ec/AutorizacionComprobanteLote.java"/>
+      <url path="AutorizacionComprobantesOfflineService.java"/>
+      <url path="AutorizacionComprobantesOffline.java"/>
+      <url path="../../../../../autorizacion/ws/sri/gob/ec/Autorizacion.java"/>
+      <url path="../../../../../autorizacion/ws/sri/gob/ec/RespuestaComprobante.java"/>
+      <url path="../../../../../autorizacion/ws/sri/gob/ec/ObjectFactory.java"/>
+      <url path="../../../../../autorizacion/ws/sri/gob/ec/RespuestaLote.java"/>
+   </list>
+   <hash n="DATA_MODEL">
+      <value n="ATTACHMENT_ENCODING" v="MIME"/>
+      <value n="FIXED_WSDL" v="false"/>
+      <list n="LOCAL_FILES"/>
+      <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy"/>
+      <url n="ORACLE_WEBSERVICES_XML" path="AutorizacionComprobantesOfflineService.xml"/>
+      <hash n="PROPERTY_GROUPS">
+         <hash n="WSDL_TO_JAVA_PROPERTIES">
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+            <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="ec.gob.sri.ws.autorizacion"/>
+         </hash>
+      </hash>
+      <value n="PROXY_ASYNC_METHODS" v="FOR_ENABLED"/>
+      <list n="PROXY_CLIENTS">
+         <url path="AutorizacionComprobantesOfflinePortClient.java"/>
+      </list>
+      <value n="PROXY_MAPPING_URL"/>
+      <url n="PROXY_ORIGINAL_WSDL_URL" protocol="https" host="cel.sri.gob.ec" path="/comprobantes-electronicos-ws/AutorizacionComprobantesOffline" query="wsdl"/>
+      <hash n="PROXY_PORTS">
+         <hash n="AutorizacionComprobantesOfflinePort">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="ACCESSES_RPC_ENCODED" v="false"/>
+            <value n="CLASS_NAME" v="ec.gob.sri.ws.autorizacion.AutorizacionComprobantesOffline"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="AutorizacionComprobantesOfflinePort"/>
+            <hash n="OPERATIONS">
+               <hash n="autorizacionComprobante">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="autorizacionComprobanteLote">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS">
+               <hash n="WS_POLICY">
+                  <value n="addressing"/>
+                  <hash n="GLOBAL_CONFIG_PROPERTIES"/>
+                  <list n="management"/>
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.policy.PolicyClientModel"/>
+                  <value n="mtom"/>
+                  <hash n="POLICY_OVERRIDE_PROPERTIES"/>
+                  <list n="security"/>
+                  <list n="wsconfig"/>
+                  <value n="wsrm"/>
+               </hash>
+            </hash>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="https" host="celcer.sri.gob.ec" path="/comprobantes-electronicos-ws/AutorizacionComprobantesOffline"/>
+            <url n="PROXY_PORT_ENDPOINT" protocol="https" host="celcer.sri.gob.ec" path="/comprobantes-electronicos-ws/AutorizacionComprobantesOffline"/>
+         </hash>
+      </hash>
+      <value n="PROXY_SERVICE_NAME" v="AutorizacionComprobantesOfflineService"/>
+      <value n="PROXY_SERVICE_NAMESPACE" v="http://ec.gob.sri.ws.autorizacion"/>
+      <url n="PROXY_TARGET_PROJECT" path="../../../../../../MSFacturas000.jpr"/>
+      <list n="PROXY_WSDL_IMPORT_LIST"/>
+      <url n="PROXY_WSDL_URL" path="AutorizacionComprobantesOfflineService.wsdl"/>
+      <hash n="REFERENCED_WEBSERVICE">
+         <list n="BD_">
+            <hash>
+               <value n="BOUND_PORT_TYPE" v="{http://ec.gob.sri.ws.autorizacion}AutorizacionComprobantesOffline"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPBinding"/>
+               <value n="NAME" v="{http://ec.gob.sri.ws.autorizacion}AutorizacionComprobantesOfflineServiceSoapBinding"/>
+               <list n="OP_BINDINGS">
+                  <hash>
+                     <value n="BOUND_OPERATION" v="autorizacion.ws.sri.gob.ec.RespuestaComprobante.autorizacionComprobante.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="autorizacion.ws.sri.gob.ec.RespuestaLote.autorizacionComprobanteLote.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+            </hash>
+         </list>
+         <list n="BINDING_FILES"/>
+         <value n="GUID" v="c48c75e1-0162-1000-800c-a9fe304f0b7c"/>
+         <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy$ProxyJavaWebService"/>
+         <list n="PO_">
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPPort"/>
+               <value n="NAME" v="AutorizacionComprobantesOfflinePort"/>
+               <value n="PORT_BINDING_NAME" v="{http://ec.gob.sri.ws.autorizacion}AutorizacionComprobantesOfflineServiceSoapBinding"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="autorizacion.ws.sri.gob.ec.RespuestaComprobante.autorizacionComprobante.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="autorizacion.ws.sri.gob.ec.RespuestaLote.autorizacionComprobanteLote.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="https" host="celcer.sri.gob.ec" path="/comprobantes-electronicos-ws/AutorizacionComprobantesOffline"/>
+            </hash>
+         </list>
+         <hash n="PROPERTY_GROUPS">
+            <hash n="WSDL_TO_JAVA_PROPERTIES">
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+               <value n="WSDL2JAVA_DEFAULT_PACKAGE" v="ec.gob.sri.ws.autorizacion"/>
+            </hash>
+         </hash>
+         <list n="PT_">
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{http://ec.gob.sri.ws.autorizacion}AutorizacionComprobantesOffline"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="ec.gob.sri.ws.autorizacion.AutorizacionComprobantesOfflineImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="ec.gob.sri.ws.autorizacion.AutorizacionComprobantesOffline"/>
+               <value n="PT_TOP_DOWN_GENERATED_SEI_NAME" v="ec.gob.sri.ws.autorizacion.AutorizacionComprobantesOffline"/>
+            </hash>
+         </list>
+         <url n="TARGET_PROJECT" path="../../../../../../MSFacturas000.jpr"/>
+         <value n="WS_ORIG_GEN_DIRECTION" v="TOP_DOWN"/>
+         <value n="WS_TARGET_NAMESPACE" v="http://ec.gob.sri.ws.autorizacion"/>
+         <value n="WS_URI" v="AutorizacionComprobantesOfflineService"/>
+         <url n="WS_WSDL_FILE" path="AutorizacionComprobantesOfflineService.wsdl"/>
+      </hash>
+      <value n="SERVICE_ASYNC" v="false"/>
+      <value n="USE_WSDL_LOCATION" v="true"/>
+   </hash>
+</jdevws:WebServiceProxy>
